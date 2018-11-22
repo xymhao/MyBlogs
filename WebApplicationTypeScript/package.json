@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "del": "2.2.0",
+    "angular2": "2.0.0-beta.11",
+    "systemjs": "0.19.24",
+    "vue": "2.5.17",
+    "webpack": "^3.6.0",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-merge": "^4.1.0"
+  }
+}

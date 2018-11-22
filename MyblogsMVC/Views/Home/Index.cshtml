@@ -1,12 +1,10 @@
 ﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>- asp.net core 2.1 - vue.js</title>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id='app'>Loading...</div>
+
+@section scripts {
     <script src="~/dist/main.js" asp-append-version="true"></script>
-</head>
-<body>
-    <div id='app'>Loading...</div>
-</body>
-</html>
+}

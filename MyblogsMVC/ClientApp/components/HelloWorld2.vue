@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="hello2">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -8,7 +8,7 @@
           href="https://vuejs.org"
           target="_blank"
         >
-         我的年吧
+          Core Docs
         </a>
       </li>
       <li>
@@ -16,7 +16,7 @@
           href="https://forum.vuejs.org"
           target="_blank"
         >
-          我的妈呀
+          Forum
         </a>
       </li>
       <li>
@@ -84,7 +84,6 @@
 </template>
 
 <script>
-import request from '@/utils/request'
 export default {
   name: 'HelloWorld',
   data () {
@@ -93,13 +92,14 @@ export default {
     }
   },
   mounted () {
-    request({
-      url: 'api/values',
-      method: 'get'
-    }).then(response => {
-      console.log(response)
-      this.msg = "我很好";
-    })
+    //request({
+    //  url: 'api/values',
+    //  method: 'get'
+    //}).then(response => {
+    //  console.log(response)
+    //  this.msg = response.data[0]
+      //})
+      this.msg = "222fuck D&G2";
   }
 }
 </script>

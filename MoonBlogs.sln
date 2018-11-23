@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationTypeScript", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyblogsMVC", "MyblogsMVC\MyblogsMVC.csproj", "{AEB9D962-9FB4-4ED1-A12A-43212221467B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetCoreWithVue", "DotnetCoreWithVue\DotnetCoreWithVue.csproj", "{7459B404-3EF9-4FAE-8C83-A234E8B0D61F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AEB9D962-9FB4-4ED1-A12A-43212221467B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEB9D962-9FB4-4ED1-A12A-43212221467B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEB9D962-9FB4-4ED1-A12A-43212221467B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7459B404-3EF9-4FAE-8C83-A234E8B0D61F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7459B404-3EF9-4FAE-8C83-A234E8B0D61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7459B404-3EF9-4FAE-8C83-A234E8B0D61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7459B404-3EF9-4FAE-8C83-A234E8B0D61F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,7 +4,7 @@ const bundleOutputDir = './wwwroot/dist'; ///////输出目录
 
 module.exports = {
     context: __dirname,
-    entry: { main: './ClientApp/index.js' },  ////////////vue.js程序根目录
+    entry: { main: './ClientApp/main.js' },  ////////////vue.js程序根目录
     module: {
         rules: [
             {
@@ -43,7 +43,19 @@ module.exports = {
                 options: {
                     name: '[name].[ext]?[hash]'
                 }
-            }
+            },
+            {
+                test: /\\\\\\\\.css$/,
+                loader: "style!css"
+            },
+            {
+                test: /\\\\\\\\.(eot|woff|woff2|ttf)([\\\\\\\\?]?.*)$/,
+                loader: "file"
+            },
+            {
+                test: /\.(eot|svg|ttf|woff|woff2)$/,
+                loader: 'file-loader'
+            },
         ]
     },
     resolve: {

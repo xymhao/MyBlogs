@@ -20,17 +20,18 @@
     "webpack-hot-middleware": "^2.21.0"
   },
   "dependencies": {
+    "axios": "0.18.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-3": "^6.24.1",
+    "element-ui": "^2.4.11",
     "vue": "^2.5.13",
     "vue-loader": "^14.0.3",
     "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.5.13",
-    "webpack-encoding-plugin": "^0.2.1",
-    "element-ui": "2.4.11"
+    "webpack-encoding-plugin": "^0.2.1"
   },
   "browserslist": [
     "> 1%",

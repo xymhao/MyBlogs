@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <UserSecretsId>9f5c0c48-f217-466d-a954-3d1bfe99ef41</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.0.2105168" />
+  </ItemGroup>
+  
+  <Target Name="PrecompileScript" BeforeTargets="BeforeBuild">
+    <Exec Command="npm install " />
+    <Exec Command="npm run build" />
+  </Target>  <Target Name="PrecompileScript" BeforeTargets="BeforeBuild">
+    <Exec Command="npm install " />
+    <Exec Command="npm run build" />
+  </Target>
+</Project>

@@ -5,7 +5,14 @@
                 <menu-component />
             </div>
             <div class="col-sm-9">
-                <router-view></router-view>
+                <el-tabs v-model="editableTabsValue2" type="card" closable @tab-remove="removeTab">
+                    <el-tab-pane v-for="(item, index) in editableTabs2"
+                                 :key="item.name"
+                                 :label="item.title"
+                                 :name="item.name">
+                        <router-view />
+                    </el-tab-pane>
+                </el-tabs>
             </div>
         </div>
     </div>

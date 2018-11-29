@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogsAngularWeb", "BlogsAng
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogsVueWeb", "BlogsVueWeb\BlogsVueWeb.csproj", "{AEB4295B-1F35-44EC-84B0-975A2EC83433}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyblogsMVC", "MyblogsMVC\MyblogsMVC.csproj", "{D2F5ED0C-EC83-4075-84F7-F0D2609834D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AEB4295B-1F35-44EC-84B0-975A2EC83433}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEB4295B-1F35-44EC-84B0-975A2EC83433}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEB4295B-1F35-44EC-84B0-975A2EC83433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F5ED0C-EC83-4075-84F7-F0D2609834D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F5ED0C-EC83-4075-84F7-F0D2609834D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F5ED0C-EC83-4075-84F7-F0D2609834D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F5ED0C-EC83-4075-84F7-F0D2609834D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

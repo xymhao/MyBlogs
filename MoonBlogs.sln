@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyblogsMVC", "MyblogsMVC\MyblogsMVC.csproj", "{AEB9D962-9FB4-4ED1-A12A-43212221467B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetCoreWithVue", "DotnetCoreWithVue\DotnetCoreWithVue.csproj", "{60AE2222-CC64-424B-A31E-F04CD215D1CD}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogsAngularWeb", "BlogsAngularWeb\BlogsAngularWeb.csproj", "{7C400427-64A2-4E63-BB2D-3D6B98B92FD3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogsVueWeb", "BlogsVueWeb\BlogsVueWeb.csproj", "{AEB4295B-1F35-44EC-84B0-975A2EC83433}"
@@ -17,14 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AEB9D962-9FB4-4ED1-A12A-43212221467B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AEB9D962-9FB4-4ED1-A12A-43212221467B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AEB9D962-9FB4-4ED1-A12A-43212221467B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AEB9D962-9FB4-4ED1-A12A-43212221467B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{60AE2222-CC64-424B-A31E-F04CD215D1CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{60AE2222-CC64-424B-A31E-F04CD215D1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{60AE2222-CC64-424B-A31E-F04CD215D1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{60AE2222-CC64-424B-A31E-F04CD215D1CD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7C400427-64A2-4E63-BB2D-3D6B98B92FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7C400427-64A2-4E63-BB2D-3D6B98B92FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C400427-64A2-4E63-BB2D-3D6B98B92FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU

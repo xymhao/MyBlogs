@@ -34,5 +34,8 @@ export default class AppComponent extends Vue {
 
         this.editableTabsValue2 = activeName;
         this.editableTabs2 = tabs.filter(tab => tab.name !== targetName);
+    };
+    tabClick() {
+        this.$router.push({ path: "/fetchdata" });
     }
 }

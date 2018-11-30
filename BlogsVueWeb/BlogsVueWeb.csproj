@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\components\navmenu\navmenu.ts" />
+    <None Remove="ClientApp\vue-shim.d.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="ClientApp\components\index\index.ts" />
   </ItemGroup>
 
@@ -20,7 +25,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="ClientApp\components\index\index.ts" />
+    <TypeScriptCompile Include="ClientApp\components\navmenu\navmenu.ts" />
+    <TypeScriptCompile Include="ClientApp\vue-shim.d.ts" />
   </ItemGroup>
 
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">

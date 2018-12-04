@@ -31,7 +31,7 @@ export default {
       });
       this.$store.commit("set_active_index", this.$route.path);
     } else {
-      this.$store.commit("add_tabs", { route: "/", name: "首页" });
+      this.$store.commit("a/add_tabs", { route: "/", name: "首页" });
       this.$store.commit("set_active_index", "/");
       this.$router.push("/");
     }

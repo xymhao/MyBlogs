@@ -72,11 +72,11 @@
         },
         computed: {
             options() {
-                return this.$store.state.options;
+                return this.$store.state.a.options;
             },
             activeIndex: {
                 get() {
-                    return this.$store.state.activeIndex;
+                    return this.$store.state.a.activeIndex;
                 },
                 set(val) {
                     this.$store.commit('set_active_index', val);

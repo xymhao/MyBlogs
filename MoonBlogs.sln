@@ -5,11 +5,9 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogsAngularWeb", "BlogsAngularWeb\BlogsAngularWeb.csproj", "{7C400427-64A2-4E63-BB2D-3D6B98B92FD3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogsVueWeb", "BlogsVueWeb\BlogsVueWeb.csproj", "{AEB4295B-1F35-44EC-84B0-975A2EC83433}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllerDI.Services", "ControllerDI.Services\ControllerDI.Services.csproj", "{F1C4C0CC-229F-4BF0-9BA0-84D4DB5FF499}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyblogsMVC", "MyblogsMVC\MyblogsMVC.csproj", "{D2F5ED0C-EC83-4075-84F7-F0D2609834D0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogsReactWeb", "BlogsReactWeb\BlogsReactWeb.csproj", "{107CA5E3-5A95-49C8-B08A-23B368631E11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllerDI.Interfaces", "ControllerDI.Interfaces\ControllerDI.Interfaces.csproj", "{EFAC5075-B995-4FFE-9FB5-D54A213FEAC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +19,14 @@ Global
 		{7C400427-64A2-4E63-BB2D-3D6B98B92FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C400427-64A2-4E63-BB2D-3D6B98B92FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C400427-64A2-4E63-BB2D-3D6B98B92FD3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AEB4295B-1F35-44EC-84B0-975A2EC83433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AEB4295B-1F35-44EC-84B0-975A2EC83433}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AEB4295B-1F35-44EC-84B0-975A2EC83433}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AEB4295B-1F35-44EC-84B0-975A2EC83433}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D2F5ED0C-EC83-4075-84F7-F0D2609834D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2F5ED0C-EC83-4075-84F7-F0D2609834D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2F5ED0C-EC83-4075-84F7-F0D2609834D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2F5ED0C-EC83-4075-84F7-F0D2609834D0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{107CA5E3-5A95-49C8-B08A-23B368631E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{107CA5E3-5A95-49C8-B08A-23B368631E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{107CA5E3-5A95-49C8-B08A-23B368631E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{107CA5E3-5A95-49C8-B08A-23B368631E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C4C0CC-229F-4BF0-9BA0-84D4DB5FF499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C4C0CC-229F-4BF0-9BA0-84D4DB5FF499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C4C0CC-229F-4BF0-9BA0-84D4DB5FF499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C4C0CC-229F-4BF0-9BA0-84D4DB5FF499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFAC5075-B995-4FFE-9FB5-D54A213FEAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFAC5075-B995-4FFE-9FB5-D54A213FEAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFAC5075-B995-4FFE-9FB5-D54A213FEAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFAC5075-B995-4FFE-9FB5-D54A213FEAC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
